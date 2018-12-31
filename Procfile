@@ -1,1 +1,1 @@
-worker : python OFFICAL-F.py
+worker : python bot.py
