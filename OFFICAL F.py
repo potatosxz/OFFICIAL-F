@@ -36,4 +36,8 @@ async def on_message(message):
         await client.send_message(message.channel,(random.choice(randomlist)))
     if message.content.startswith('Halo'):
         await client.send_message(message.channel,'Hai <@%S>'  %(message.author.id))
-client.run('NTI5MTY0NDY2OTgyNzQ4MTcy.Dws26A.un_Mbom34cHuDQvSUsPR1sDV_U8')
+  
+  
+ 
+#YOU CAN USE os.environ TO HIDE YOUR BOT TOKEN: SAVE YOUR BOT TOKEN AS THE NAME YOU GAVE IN os.environ['name'] 
+bot.run(os.environ['BOT_TOKEN'])
